@@ -22,43 +22,41 @@ Data Dictionary
 
  
 
-information_train.csv, information_test.csv - tab separated files
+*information_train.csv, information_test.csv - tab separated files
 
- 
+ **Variable       Meaning
 
--Variable       Meaning
+**abstract: Text containing the abstract of the article
 
-abstract: Text containing the abstract of the article
+**article_title: Title of the article
 
-article_title: Title of the article
+**author_str: Name of the Authors of the article
 
-author_str: Name of the Authors of the article
+**pmid: Id for the article
 
-pmid: Id for the article
+**pub_date: Publication date of the article/manuscript
 
-pub_date: Publication date of the article/manuscript
+**set: The set to which the article belongs
 
-set: The set to which the article belongs
-
-full_Text: The complete text of the research article
+**full_Text: The complete text of the research article
 
 
 
-Train.csv - comma separated file
+*Train.csv - comma separated file
 
-Variable Meaning
+**Variable Meaning
 
-pmid: Id for the article
+**pmid: Id for the article
 
-ref_list : pmid of the articles that this article has cited
+r**ef_list : pmid of the articles that this article has cited
 
 
 
-Test.csv - comma separated file
+*Test.csv - comma separated file
 
-Variable Meaning
+**Variable Meaning
 
-pmid: Id for the article
+**pmid: Id for the article
 
 
 Evaluation Metric
