@@ -48,7 +48,7 @@ Data Dictionary
 
 **pmid: Id for the article
 
-r**ef_list : pmid of the articles that this article has cited
+**ref_list : pmid of the articles that this article has cited
 
 
 
